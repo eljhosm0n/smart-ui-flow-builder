@@ -1,16 +1,50 @@
-# React + Vite
+# Smart UI Flow Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visual Flow Builder desarrollado con React y Vite para crear, conectar y validar flujos lógicos de forma visual.
 
-Currently, two official plugins are available:
+Este proyecto fue creado como pieza de portafolio frontend, demostrando arquitectura modular, UX guiada y manejo avanzado de estado.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Descripción
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Smart UI Flow Builder es una herramienta visual tipo low-code / no-code que permite construir flujos paso a paso mediante drag and drop, conexiones con flechas y validaciones automáticas.
 
-## Expanding the ESLint configuration
+Es ideal para modelar procesos, lógica de negocio y workflows.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Demo en vivo
+
+https://TU-USUARIO.github.io/smart-ui-flow-builder/
+
+---
+
+## Funcionalidades
+
+- Drag and Drop de nodos
+- Conexiones visuales con flechas
+- Conectar nodos mediante clic
+- Eliminación de conexiones
+- Modo Preview (bloquea edición)
+- Guardar y cargar flujos usando LocalStorage
+- Exportar e importar flujos en JSON
+- Validación lógica del flujo
+- Validación visual de errores
+- UX guiada integrada
+- Arquitectura modular y escalable
+
+---
+
+## Tecnologías
+
+- React
+- Vite
+- JavaScript
+- CSS
+- Git y GitHub
+
+---
+
+## Estructura del proyecto
+
